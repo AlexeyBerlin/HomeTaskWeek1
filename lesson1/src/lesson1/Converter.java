@@ -16,7 +16,7 @@ public class Converter {
         System.out.println("Please, enter digit to convert");
         digit = input.nextInt();
 
-        if(digit < 0 || digit > 9){
+        if(digit < 0 | digit > 9){
             System.out.print("Sorry, but You should enter digit >= 0 and <= 9");
         }else{
             System.out.print(digit + " -> " + arrayOfWords[digit]);
